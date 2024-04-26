@@ -1,3 +1,0 @@
-/home/vebly/code/cpp/Template-Manager/build/CMakeFiles/Template-Manager.dir
-/home/vebly/code/cpp/Template-Manager/build/CMakeFiles/edit_cache.dir
-/home/vebly/code/cpp/Template-Manager/build/CMakeFiles/rebuild_cache.dir
