@@ -1,0 +1,72 @@
+#include <iostream>
+#include <string>
+#include <unistd.h> //gcwd  
+#include <filesystem>
+#include <vector>
+
+std::string get_cwd(){
+    char cwd[1024];
+    if (getcwd(cwd, sizeof(cwd)) != NULL) {
+        return cwd;
+    } else {
+        perror("getcwd() error");
+        return "";
+    }
+}
+
+class Logger{
+public:
+    void help(){
+        std::string help = R"(
+            -h      help
+            -g      get 
+            -s      save
+            -b      browse  
+            -p      path to template directory
+        )";
+        std::cout << help << std::endl;
+    }
+    void get(){
+        std::cout << "-g <filename> <location>\n";
+    }
+};
+
+int main(int argc, char* argv[]){
+    Logger logger;
+    std::string cwd = get_cwd();
+    std::vector<std::string> arg;
+    for(int i = 1; i < argc; i++){
+        arg.push_back(argv[i]);
+    }
+
+    if(arg.size() == 0){
+        logger.help();
+    }
+
+    else if(arg.size() == 1){ 
+        if(arg[0] == "-h"){
+            std::cout << arg[0] << std::endl;
+            logger.help();
+        }
+        else if(arg[0] == "-g"){
+            logger.get();
+        }
+        // else if(arg[0] == "-s"){
+        //     option = save;
+        // }
+        // else if(arg[0] == "-b"){
+        //     option = browse;
+        // }
+        // else if(arg[0] == "-p"){
+        //     option = path;
+        // }
+
+        
+    }
+    // two arguments
+    else if(arg.size() == 2){
+
+    }
+}
+
+

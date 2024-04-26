@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/vebly/code/cpp/Template-Manager/build",
+  "command": "/nix/store/4kwk49k8rc8cg8c387kbbjcrl8i0y693-gcc-wrapper-13.2.0/bin/g++  -I/home/vebly/code/cpp/Template-Manager/include  -g -g -std=gnu++23 -o CMakeFiles/Template-Manager.dir/src/main.cpp.o -c /home/vebly/code/cpp/Template-Manager/src/main.cpp",
+  "file": "/home/vebly/code/cpp/Template-Manager/src/main.cpp",
+  "output": "CMakeFiles/Template-Manager.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/vebly/code/cpp/Template-Manager/build",
+  "command": "/nix/store/4kwk49k8rc8cg8c387kbbjcrl8i0y693-gcc-wrapper-13.2.0/bin/g++  -I/home/vebly/code/cpp/Template-Manager/include  -g -g -std=gnu++23 -o CMakeFiles/Template-Manager.dir/src/get_cwd.cpp.o -c /home/vebly/code/cpp/Template-Manager/src/get_cwd.cpp",
+  "file": "/home/vebly/code/cpp/Template-Manager/src/get_cwd.cpp",
+  "output": "CMakeFiles/Template-Manager.dir/src/get_cwd.cpp.o"
+},
+{
+  "directory": "/home/vebly/code/cpp/Template-Manager/build",
+  "command": "/nix/store/4kwk49k8rc8cg8c387kbbjcrl8i0y693-gcc-wrapper-13.2.0/bin/g++  -I/home/vebly/code/cpp/Template-Manager/include  -g -g -std=gnu++23 -o CMakeFiles/Template-Manager.dir/src/Options.cpp.o -c /home/vebly/code/cpp/Template-Manager/src/Options.cpp",
+  "file": "/home/vebly/code/cpp/Template-Manager/src/Options.cpp",
+  "output": "CMakeFiles/Template-Manager.dir/src/Options.cpp.o"
+}
+]

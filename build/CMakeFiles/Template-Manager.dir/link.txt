@@ -1,0 +1,1 @@
+/nix/store/4kwk49k8rc8cg8c387kbbjcrl8i0y693-gcc-wrapper-13.2.0/bin/g++  -g -g -rdynamic "CMakeFiles/Template-Manager.dir/src/main.cpp.o" "CMakeFiles/Template-Manager.dir/src/get_cwd.cpp.o" "CMakeFiles/Template-Manager.dir/src/Options.cpp.o" -o Template-Manager 
